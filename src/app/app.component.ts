@@ -12,10 +12,13 @@ import {MatTableDataSource, MatTableModule} from '@angular/material/table';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent  implements OnInit  {
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
  
 
   displayedColumns: string[] = [
-    'id',
+ 
      'firstName', 
      'lastName', 
      'company',
@@ -63,6 +66,8 @@ applyFilter(event: Event) {
   }
 }
 }
+
+
 
  
 

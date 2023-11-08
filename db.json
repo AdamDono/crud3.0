@@ -14,8 +14,8 @@
     }
   ],
   "employee": {
-    "firstName": "",
-    "lastName": "",
+    "firstName": "Adam",
+    "lastName": "Dono",
     "birthday": "",
     "gender": "",
     "education": "",
