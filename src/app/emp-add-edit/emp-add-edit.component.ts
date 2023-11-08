@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-emp-add-edit',
@@ -7,9 +8,35 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EmpAddEditComponent implements OnInit {
 
-  constructor() { }
+  empForm : FormGroup;
 
+  education = [
+    'Drop Out',
+    'Grade 12',
+    'diploma',
+    'Undergraduate',
+  ];
+
+  constructor(private _fb: FormBuilder ) { 
+     this.empForm = this._fb.group({
+      firstName: '',
+      lastName: '',
+      birthday: '',
+      gender: '',
+      education:'',
+      company: '',
+      experience: '',
+      salary: '',
+
+     });  
+    }
   ngOnInit(): void {
+    throw new Error('Method not implemented.');
   }
 
+     onFormSubmit() {
+       if(this.empForm.valid) {
+         console.log(this.empForm.value);  
+       }
+     }
 }
