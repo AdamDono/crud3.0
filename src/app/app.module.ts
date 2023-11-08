@@ -19,11 +19,15 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import {MatTableModule} from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { SignupComponent } from './signup/signup.component';
+import { SigninComponent } from './signin/signin.component';
  
 @NgModule({
   declarations: [
     AppComponent,
-    EmpAddEditComponent 
+    EmpAddEditComponent,
+    SignupComponent,
+    SigninComponent 
   ],
   imports: [
     BrowserModule,

@@ -12,12 +12,6 @@ import {MatTableDataSource, MatTableModule} from '@angular/material/table';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent  implements OnInit  {
-deleteEmployee(arg0: any) {
-throw new Error('Method not implemented.');
-}
-openEditForm(_t148: any) {
-throw new Error('Method not implemented.');
-}
  
 
   displayedColumns: string[] = [
@@ -31,7 +25,7 @@ throw new Error('Method not implemented.');
       'birthday',
       'education',
       'email', 
-      'action',];
+    ];
   dataSource!: MatTableDataSource<any>;
 
   @ViewChild(MatPaginator) paginator! : MatPaginator;
