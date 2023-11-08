@@ -15,6 +15,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatSelectModule} from '@angular/material/select';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,6 +36,7 @@ import { ReactiveFormsModule } from '@angular/forms';
   MatRadioModule,
   MatSelectModule,
   ReactiveFormsModule,
+  HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
