@@ -5,7 +5,7 @@
       "title": "json-server",
       "author": "typicode"
     }
-  ], 
+  ],
   "comments": [
     {
       "id": 1,
@@ -14,8 +14,8 @@
     }
   ],
   "employee": {
-    "firstName": "Adam",
-    "lastName": "Dono",
+    "firstName": "",
+    "lastName": "",
     "birthday": "",
     "gender": "",
     "education": "",
