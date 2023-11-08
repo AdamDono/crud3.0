@@ -12,13 +12,16 @@ import {MatTableDataSource, MatTableModule} from '@angular/material/table';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent  implements OnInit  {
-  title(title: any) {
-    throw new Error('Method not implemented.');
-  }
+deleteEmployee(arg0: any) {
+throw new Error('Method not implemented.');
+}
+openEditForm(_t148: any) {
+throw new Error('Method not implemented.');
+}
  
 
   displayedColumns: string[] = [
- 
+  
      'firstName', 
      'lastName', 
      'company',
@@ -27,7 +30,8 @@ export class AppComponent  implements OnInit  {
       'experience',
       'birthday',
       'education',
-      'email', ];
+      'email', 
+      'action',];
   dataSource!: MatTableDataSource<any>;
 
   @ViewChild(MatPaginator) paginator! : MatPaginator;
