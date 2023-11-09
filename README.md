@@ -1,5 +1,8 @@
 # Crud30
 
+
+This is an Employee management system where the admin can create delete and update employees details. in order to do this they need to login in or signup first and then will be navigated to the dashboard where they can perform crud funtions. i us3ed angular,bootstrap and material ui for the front end for the the data goes through json.db will use postegress and java for the backend and the database as production continues
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
 
 ## Development server
